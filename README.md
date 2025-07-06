@@ -6,12 +6,12 @@ A small collection of Python scripts for quick chemoinformatics tasks—no bells
 
 ## Included Scripts
 
-### 1. `ascii_molecule_renderer.py`
+### 1. `smilees_to_ascii_art.py`
 
 Parses a SMILES string, computes 2D coordinates with RDKit, and renders a rough ASCII‐art sketch of the molecule.
 
 Example: Dabrafenib
-$ python ascii_molecule_renderer.py --molecule Dabrafenib
+```
        ==N==     --N
     C==     ==C--
     -          -
@@ -27,3 +27,14 @@ C--   --                 F                         F
    --C--
    --   --C
   C
+```
+
+
+2. compute_molecular_weight.py (not yet implemented)
+
+Description:
+Calculate monoisotopic and average molecular weight from a SMILES string.
+
+Example:
+
+$ python compute_molecular_weight.py --smiles "CC(=O)OC1=CC=CC=C1C(=O)O"
