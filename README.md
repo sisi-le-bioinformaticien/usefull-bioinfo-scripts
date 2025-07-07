@@ -1,6 +1,6 @@
 # Bioinformatics Utilities
 
-A small collection of Python scripts for quick chemoinformatics tasks—no bells and whistles, just simple tools you can run from the command line.
+A small collection of Python scripts for quick chemoinformatics tasks - simple tools you can run from the command line.
 
 ---
 
