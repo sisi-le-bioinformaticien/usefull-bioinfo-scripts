@@ -30,7 +30,7 @@ C--   --                 F                         F
 ```
 
 
-2. compute_molecular_weight.py (not yet implemented)
+### 2. compute_molecular_weight.py (not yet implemented)
 
 Description:
 Calculate molecular weight from a SMILES string.
